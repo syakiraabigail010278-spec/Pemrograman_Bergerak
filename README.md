@@ -8,18 +8,20 @@ Aplikasi Android sederhana menggunakan **Jetpack Compose** dan **Material 3** un
 * **NIM**: 0102523055
 * **Tema UI**: Katalog Produk Sederhana (Digit NIM 5)
 
-## Tech Stack
-* Kotlin
-* Jetpack Compose
-* Material 3
+## Tujuan Aplikasi
+Memenuhi kriteria Tugas Pertemuan 3 Pemrograman Bergerak dengan mengimplementasikan konsep `@Composable`, struktur layout (`Column`, `Row`, `Box`), `Modifier`, `MaterialTheme`, dan reusable component dalam satu layar Android modern yang rapi.
+
+## Tampilan Aplikasi
+*(Bisa upload/drag gambar screenshot hasil preview kamu langsung ke GitHub di bagian ini)*
 
 ## Struktur Composable Utama
-* `ProductCatalogScreen`: Layar utama yang menggabungkan seluruh komponen.
-* `CatalogHeader`: Reusable component untuk header toko dan statistik produk.
+* `ProductCatalogScreen`: Layar utama yang menggabungkan seluruh komponen UI.
+* `CatalogHeader`: Reusable component untuk header nama toko dan jumlah item.
 * `ProductCard`: Reusable component untuk kartu detail produk (nama, kategori, rating, harga).
-* `CatalogFooterAction`: Component footer untuk area aksi/tombol di bagian bawah.
+* `CatalogFooterAction`: Component footer untuk area aksi/tombol navigasi bawah.
 
 ## Cara Menjalankan
-1. Clone repository ini.
-2. Buka project di Android Studio.
-3. Jalankan melalui Emulator Android atau buka `MainActivity.kt` dan aktifkan `@Preview`.
+1. Clone repository ini ke komputer kamu.
+2. Buka project di Android Studio (Ladybug / versi terbaru).
+3. Buka file `MainActivity.kt`.
+4. Aktifkan mode **Split / Design** di pojok kanan atas untuk melihat `@Preview`, atau jalankan aplikasi di Emulator/perangkat fisik Android.
